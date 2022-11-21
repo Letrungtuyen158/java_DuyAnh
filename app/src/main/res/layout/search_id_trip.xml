@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="SEARCH TRIP"
+        android:textColor="#fff"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:padding="9dp"
+        android:gravity="center"
+        android:background="@color/colorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="9dp"
+        android:id="@+id/Id_Trip"
+        android:hint="Name : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_Search_Trip"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorMenu"
+        android:text="Search"
+        android:textColor="#fff" />
+
+</LinearLayout>

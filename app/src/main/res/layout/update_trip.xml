@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="UPDATE DATA"
+        android:textColor="#fff"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:padding="9dp"
+        android:gravity="center"
+        android:background="@color/colorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:background="@color/textWhite"
+        android:gravity="center"
+        android:text="Name*"
+        android:textColor="#110303" />
+
+    <EditText
+        android:layout_margin="4dp"
+        android:id="@+id/Name_Trip"
+        android:hint="Name : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:background="@color/textWhite"
+        android:gravity="center"
+        android:text="Destination*"
+        android:textColor="#110303" />
+    <EditText
+        android:layout_margin="4dp"
+        android:id="@+id/Destination_Trip"
+        android:hint="Destination : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:background="@color/textWhite"
+        android:gravity="center"
+        android:text="Date of the Trip*"
+        android:textColor="#110303" />
+    <EditText
+        android:layout_margin="4dp"
+        android:id="@+id/Date_Trip"
+        android:hint="Date : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:background="@color/textWhite"
+        android:gravity="center"
+        android:text="Require Risks Assessment*"
+        android:textColor="#110303" />
+    <EditText
+        android:layout_margin="4dp"
+        android:id="@+id/Require_Trip"
+        android:hint="Require : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:background="@color/textWhite"
+        android:gravity="center"
+        android:text="Description"
+        android:textColor="#110303" />
+    <EditText
+        android:layout_margin="4dp"
+        android:id="@+id/Description_Trip"
+        android:hint="Description : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_margin="9dp"
+        android:textColor="#fff"
+        android:background="@color/colorMenu"
+        android:text="UPDATE"
+        android:id="@+id/Update_Trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

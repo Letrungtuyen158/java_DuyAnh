@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="DELETE DATA"
+        android:textColor="#fff"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:gravity="center"
+        android:background="@color/colorBlue"
+        android:padding="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="4dp"
+        android:id="@+id/Id_delete_Trip"
+        android:hint="ID : "
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/Delete_Trip"
+        android:textColor="#fff"
+        android:background="@color/colorMenu"
+        android:text="DELETE"
+        android:layout_width="match_parent"
+        android:layout_margin="9dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

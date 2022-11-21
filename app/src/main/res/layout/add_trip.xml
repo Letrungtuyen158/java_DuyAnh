@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="INSERT DATA"
+        android:background="@color/colorBlue"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Name_Trip"
+        android:layout_margin="5dp"
+        android:hint="Name : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/Destination_Trip"
+        android:hint="Destination : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Date_trip"
+        android:hint="Date : "
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Require_Trip"
+        android:hint="Require Risks Assessment*: "
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Description_Trip"
+        android:hint="Description : "
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="#fff"
+        android:background="@color/colorMenu"
+        android:text="INSERT"
+        android:id="@+id/button_Add"
+        android:layout_width="match_parent"
+        android:layout_margin="9dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
